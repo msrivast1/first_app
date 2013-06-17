@@ -52,3 +52,57 @@ Binding(CTRL+SHIFT+U,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2013-06-17 12:31:31.810 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2013-06-17 12:31:51.539
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-17 12:31:51.540
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5e45dde4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3cead416,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5d0a0f98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-17 12:31:51.540
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3f85f3e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@734e17b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
